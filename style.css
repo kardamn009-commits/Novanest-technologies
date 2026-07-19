@@ -5,11 +5,7 @@ body{
 }
 
 header{
-    background:#2563eb;
-    color:white;
-    text-align:center;
-    padding:40px 20px;
-animation:fadeIn 1s ease;
+<h2>Innovating the Future with Technology</h2>
 }
 
 nav{
@@ -19,6 +15,13 @@ nav{
 }
 
 nav a{
+    header{
+    background:linear-gradient(135deg,#2563eb,#4f46e5);
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+    animation:fadeIn 1s ease;
+    }
     color:white;
     text-decoration:none;
     margin:15px;
@@ -43,6 +46,8 @@ button{
 
 button:hover{
     background:#1d4ed8;
+    transform:scale(1.05);
+    transition:0.3s;
 }
 
 .card{
