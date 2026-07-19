@@ -97,3 +97,21 @@ footer p{
         opacity:1;
         transform:translateY(0);
     }
+.hero-buttons{
+    margin-top:20px;
+}
+
+.hero-buttons button{
+    margin:8px;
+}
+
+.btn-outline{
+    background:white;
+    color:#2563eb;
+    border:2px solid white;
+}
+
+.btn-outline:hover{
+    background:#2563eb;
+    color:white;
+}
