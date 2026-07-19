@@ -1,9 +1,53 @@
-alert("NovaNest Technologies में आपका स्वागत है!");
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f4f7fc;
+}
+
+header{
+    background:#2563eb;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+nav{
+    background:#111827;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+section{
+    max-width:900px;
+    margin:auto;
+    padding:20px;
+}
+
+button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#1d4ed8;
+}
+
 .card{
     background:white;
-    width:300px;
-    margin:20px auto;
     padding:20px;
     border-radius:10px;
-    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    margin-top:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
 }
