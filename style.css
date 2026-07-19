@@ -45,9 +45,13 @@ button:hover{
 }
 
 .card{
+    transition:0.3s;
+cursor:pointer;
     background:white;
     padding:20px;
     border-radius:10px;
     margin-top:20px;
     box-shadow:0 5px 15px rgba(0,0,0,.15);
+.card:hover{
+    transform:translateY(-8px);
 }
