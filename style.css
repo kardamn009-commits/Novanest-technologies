@@ -1,1 +1,9 @@
 alert("NovaNest Technologies में आपका स्वागत है!");
+.card{
+    background:white;
+    width:300px;
+    margin:20px auto;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
