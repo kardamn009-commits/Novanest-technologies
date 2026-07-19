@@ -1,3 +1,6 @@
+html{
+    scroll-behavior:smooth;
+}
 body{
     margin:0;
     font-family:Arial, sans-serif;
@@ -5,7 +8,9 @@ body{
 }
 
 header{
-<h2>Innovating the Future with Technology</h2>
+<p class="tagline">
+We Build Modern Websites, AI Solutions & Mobile Apps
+</p>
 }
 
 nav{
@@ -58,9 +63,7 @@ cursor:pointer;
     border-radius:10px;
     margin-top:20px;
     box-shadow:0 5px 15px rgba(0,0,0,.15);
-}
-.card:hover{
-    transform:translateY(-8px);
+
 }
 footer{
     background:#111827;
@@ -120,3 +123,12 @@ footer p{
     background:#2563eb;
     color:white;
 }
+.tagline{
+    font-size:18px;
+    color:#e5e7eb;
+    margin-top:10px;
+}
+    .card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 12px 25px rgba(0,0,0,.2);
+    }
