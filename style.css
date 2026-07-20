@@ -132,17 +132,17 @@ footer p{
     transform:translateY(-10px);
     box-shadow:0 12px 25px rgba(0,0,0,.2);
     }
-.logo-box{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:15px;
+.logo{
+    width: 120px;
+    height: auto;
+    display: block;
 }
 
-.logo{
-    width:150px;
-    height:150px;
-    border-radius:18px;
+.logo-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 form{
