@@ -28,13 +28,13 @@ header{
     display:flex;
     justify-content:center;
     align-items:center;
-    gap:20px;
+    gap:10px;
     margin-bottom:20px;
 }
 
 .logo{
-    width:150px;
-    height:150px;
+    width:180px;
+    height:180px;
     object-fit:contain;
 }
 
@@ -135,13 +135,15 @@ button:hover{
 /* Contact Form */
 
 form{
-    margin-top:20px;
+    margin:30px auto;
+    max-width:500px;
 }
 
 input,
-textarea{
+textarea,
+form button{
     width:100%;
-    max-width:500px;
+    box-sizing:border-box;
     padding:12px;
     margin:10px 0;
     border:1px solid #ccc;
