@@ -1,221 +1,92 @@
 html{
     scroll-behavior:smooth;
 }
-body{
+
+*{
     margin:0;
-    font-family:Arial, sans-serif;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,sans-serif;
     background:#f4f7fc;
+    color:#222;
+    line-height:1.6;
 }
 
-nav{
-    background:#111827;
-    text-align:center;
-    padding:15px;
-}
+/* Header */
 
-nav a{
-    header{
+header{
     background:linear-gradient(135deg,#2563eb,#4f46e5);
     color:white;
     text-align:center;
     padding:60px 20px;
     animation:fadeIn 1s ease;
-    }
-   nav a{
-       color:white;
-    text-decoration:none;
-    margin:15px;
-    font-weight:bold;
 }
 
-section{
-    max-width:900px;
-    margin:auto;
-    padding:20px;
+.logo{
+    width:120px;
+    height:120px;
+    object-fit:contain;
 }
 
-button{
-    background:#2563eb;
-    color:white;
-    border:none;
-    padding:12px 25px;
-    border-radius:8px;
-    cursor:pointer;
-    font-size:16px;
-}
-
-button:hover{
-    background:#1d4ed8;
-    transform:scale(1.05);
-    transition:0.3s;
-}
-
-.card{
-    transition:0.3s;
-cursor:pointer;
-    background:white;
-    padding:20px;
-    border-radius:10px;
-    margin-top:20px;
-    box-shadow:0 5px 15px rgba(0,0,0,.15);
-}
-.card:hover{
-    transform:translateY(-8px);
-}
-footer{
-    background:#111827;
-    color:white;
-    text-align:center;
-    padding:20px;
-    margin-top:40px;
-}
-
-footer p{
-    margin:0;
-}
-.whatsapp-btn{
-    position:fixed;
-    bottom:20px;
-    right:20px;
-    width:60px;
-    height:60px;
-    background:#25D366;
-    color:white;
-    text-decoration:none;
-    border-radius:50%;
+.logo-box{
     display:flex;
-    align-items:center;
     justify-content:center;
-    font-size:30px;
-    box-shadow:0 5px 15px rgba(0,0,0,.3);
-    transition:0.3s;
+    align-items:center;
+    gap:20px;
+    margin-bottom:15px;
 }
 
-.whatsapp-btn:hover{
-    transform:scale(1.1);
-}@keyframes fadeIn{
-    from{
-        opacity:0;
-        transform:translateY(-20px);
-    }
-    to{
-        opacity:1;
-        transform:translateY(0);
-    }
+header h1{
+    font-size:42px;
 }
+
+.tagline{
+    font-size:18px;
+    margin-top:10px;
+    color:#e5e7eb;
+}
+
+/* Hero Buttons */
+
 .hero-buttons{
-    margin-top:20px;
+    margin-top:25px;
 }
 
 .hero-buttons button{
     margin:8px;
-}
-
-.btn-outline{
-    background:white;
-    color:#2563eb;
-    border:2px solid white;
-}
-
-.btn-outline:hover{
-    background:#2563eb;
-    color:white;
-}
-.tagline{
-    font-size:18px;
-    color:#e5e7eb;
-    margin-top:10px;
-}
-    .card:hover{
-    transform:translateY(-10px);
-    box-shadow:0 12px 25px rgba(0,0,0,.2);
-    }
-.logo{
-    width: 120px;
-    height: 120px;
-    object-fit: contain;
-}
-
-.logo-box{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-}
-
-form{
-    margin-top:20px;
-}
-
-input, textarea{
-    width:100%;
-    max-width:500px;
-    padding:12px;
-    border:1px solid #ccc;
+    padding:12px 28px;
+    border:none;
     border-radius:8px;
+    background:#ffffff;
+    color:#2563eb;
     font-size:16px;
-    margin-bottom:10px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
 }
 
-textarea{
-    resize:vertical;
+.hero-buttons button:hover{
+    transform:scale(1.05);
 }
-/* ===========================
-   Responsive Design
-=========================== */
 
-@media (max-width:768px){
+/* Navigation */
 
-.logo-box{
-    flex-direction:column;
+nav{
+    background:#111827;
+    padding:15px;
     text-align:center;
 }
 
-.logo{
-    width:90px;
-}
-
-h1{
-    font-size:32px;
-}
-
-nav{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-}
-
 nav a{
-    margin:8px 12px;
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
 }
 
-.hero-buttons{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    gap:10px;
-}
-
-.hero-buttons button{
-    width:220px;
-}
-
-.card{
-    margin:15px 10px;
-}
-
-section{
-    padding:15px;
-}
-
-footer{
-    font-size:14px;
-}
-
-.whatsapp-btn{
-    width:55px;
-    height:55px;
-    font-size:28px;
-}
-
+nav a:hover{
+    color:#60a5fa;
 }
