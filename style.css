@@ -144,3 +144,20 @@ footer p{
     height:70px;
     border-radius:12px;
 }
+form{
+    margin-top:20px;
+}
+
+input, textarea{
+    width:100%;
+    max-width:500px;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+    margin-bottom:10px;
+}
+
+textarea{
+    resize:vertical;
+}
