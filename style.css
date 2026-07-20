@@ -242,3 +242,33 @@ footer{
         transform:translateY(0);
     }
 }
+/* Smooth Fade Animation */
+.fade-up{
+    opacity:0;
+    transform:translateY(40px);
+    transition:all .8s ease;
+}
+
+.fade-up.show{
+    opacity:1;
+    transform:translateY(0);
+}
+
+/* Card Hover */
+.card{
+    transition:transform .3s ease, box-shadow .3s ease;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(0,0,0,.2);
+}
+
+/* Button Hover */
+button{
+    transition:all .3s ease;
+}
+
+button:hover{
+    transform:translateY(-3px) scale(1.05);
+}
