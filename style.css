@@ -162,3 +162,62 @@ input, textarea{
 textarea{
     resize:vertical;
 }
+/* ===========================
+   Responsive Design
+=========================== */
+
+@media (max-width:768px){
+
+.logo-box{
+    flex-direction:column;
+    text-align:center;
+}
+
+.logo{
+    width:90px;
+}
+
+h1{
+    font-size:32px;
+}
+
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+nav a{
+    margin:8px 12px;
+}
+
+.hero-buttons{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+}
+
+.hero-buttons button{
+    width:220px;
+}
+
+.card{
+    margin:15px 10px;
+}
+
+section{
+    padding:15px;
+}
+
+footer{
+    font-size:14px;
+}
+
+.whatsapp-btn{
+    width:55px;
+    height:55px;
+    font-size:28px;
+}
+
+}
