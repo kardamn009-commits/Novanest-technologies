@@ -426,3 +426,23 @@ footer hr{
     background:#1f2937;
     color:white;
 }
+/* FAQ */
+
+.faq-item{
+    background:white;
+    margin:15px auto;
+    max-width:800px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+.faq-item h3{
+    color:#2563eb;
+    margin-bottom:10px;
+}
+
+.dark-mode .faq-item{
+    background:#1f2937;
+    color:white;
+}
