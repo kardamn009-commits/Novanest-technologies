@@ -56,3 +56,15 @@ function hideText() {
 function showText() {
     document.getElementById("demoText").style.display = "block";
 }
+function sendMessage(){
+
+    let input=document.getElementById("userInput").value;
+
+    let chat=document.getElementById("chatMessages");
+
+    chat.innerHTML+=`<p><b>You:</b> ${input}</p>`;
+
+    chat.innerHTML+=`<p><b>AI:</b> I am still learning...</p>`;
+
+    document.getElementById("userInput").value="";
+}
