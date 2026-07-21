@@ -45,3 +45,7 @@ function changeTitle() {
     document.getElementById("mainTitle").innerHTML =
     "🚀 Welcome to NovaNest Technologies";
 }
+function changeColor() {
+    document.body.style.backgroundColor = "#dbeafe";
+    document.getElementById("mainTitle").style.color = "#2563eb";
+}
