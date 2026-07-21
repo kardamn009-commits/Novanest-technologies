@@ -367,3 +367,31 @@ footer hr{
         transform:rotate(360deg);
     }
 }
+/* Portfolio */
+
+.portfolio-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+    margin-top:30px;
+}
+
+.portfolio-card{
+    width:280px;
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.portfolio-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.dark-mode .portfolio-card{
+    background:#1f2937;
+    color:white;
+}
