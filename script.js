@@ -20,3 +20,8 @@ darkBtn.addEventListener("click", () => {
         darkBtn.innerHTML = "🌙 Dark Mode";
     }
 });
+window.addEventListener("load", function(){
+
+    document.getElementById("loader").style.display="none";
+
+});
