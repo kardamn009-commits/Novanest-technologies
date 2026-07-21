@@ -272,3 +272,31 @@ button{
 button:hover{
     transform:translateY(-3px) scale(1.05);
 }
+/* Dark Mode */
+
+.dark-mode{
+    background:#121212;
+    color:white;
+}
+
+.dark-mode header{
+    background:#1e293b;
+}
+
+.dark-mode nav{
+    background:#000;
+}
+
+.dark-mode .card{
+    background:#1f2937;
+    color:white;
+}
+
+.dark-mode footer{
+    background:#000;
+}
+
+#darkModeBtn{
+    margin:15px;
+    padding:10px 20px;
+}
