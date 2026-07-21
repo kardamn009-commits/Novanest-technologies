@@ -49,3 +49,10 @@ function changeColor() {
     document.body.style.backgroundColor = "#dbeafe";
     document.getElementById("mainTitle").style.color = "#2563eb";
 }
+function hideText() {
+    document.getElementById("demoText").style.display = "none";
+}
+
+function showText() {
+    document.getElementById("demoText").style.display = "block";
+}
