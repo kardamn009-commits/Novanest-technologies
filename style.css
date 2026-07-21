@@ -482,3 +482,32 @@ footer hr{
     background:#1f2937;
     color:white;
 }
+.pricing-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+}
+
+.pricing-card{
+    width:280px;
+    background:white;
+    padding:25px;
+    text-align:center;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.pricing-card:hover{
+    transform:translateY(-10px);
+}
+
+.popular{
+    border:3px solid #2563eb;
+}
+
+.dark-mode .pricing-card{
+    background:#1f2937;
+    color:white;
+}
