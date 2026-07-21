@@ -41,3 +41,7 @@ function topFunction() {
         behavior: "smooth"
     });
 }
+function changeTitle() {
+    document.getElementById("mainTitle").innerHTML =
+    "🚀 Welcome to NovaNest Technologies";
+}
