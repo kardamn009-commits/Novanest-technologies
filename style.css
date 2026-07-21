@@ -610,3 +610,19 @@ footer hr{
     background:#1f2937;
     color:white;
 }
+.chat-box{
+    width:320px;
+    position:fixed;
+    bottom:20px;
+    left:20px;
+    background:white;
+    padding:15px;
+    border-radius:12px;
+    box-shadow:0 5px 20px rgba(0,0,0,.3);
+}
+
+#chatMessages{
+    height:200px;
+    overflow-y:auto;
+    margin-bottom:10px;
+}
